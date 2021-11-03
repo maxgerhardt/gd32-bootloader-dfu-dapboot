@@ -25,7 +25,7 @@
 MEMORY
 {
 	vectors (rx) : ORIGIN = 0x08000000, LENGTH = 0x150
-	rom (rx)  : ORIGIN = 0x08000150, LENGTH = 0x1EB0
+	rom (rx)  : ORIGIN = 0x08000150, LENGTH = 256K-0x150
 	ram (rwx) : ORIGIN = 0x20000000, LENGTH = 20K
 }
 
